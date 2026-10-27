@@ -1,0 +1,22 @@
+{
+ "identical_tensors": {
+  "clip": [
+   199,
+   199
+  ],
+  "vit": [
+   198,
+   198
+  ],
+  "resnet": [
+   318,
+   318
+  ]
+ },
+ "versions": {
+  "openai/clip-vit-base-patch16": "57c216476eefef5ab752ec549e440a49ae4ae5f3",
+  "google/vit-base-patch16-224-in21k": "b4569560a39a0f1af58e3ddaf17facf20ab919b0",
+  "microsoft/resnet-50": "34c2154c194f829b11125337b98c8f5f9965ff19",
+  "osv5m/osv5m (dataset)": "cff33609b56b54d8743b7ee7a416eb8433e9a681"
+ }
+}

@@ -1,0 +1,268 @@
+2026-10-24 12:57 metadata: 3,173,652 training and 125,662 test images for the 25 countries (69s)
+2026-10-24 12:58 split checksum 3ec8dc9f836b (matches the planned splits)
+2026-10-24 12:59 train: indexed 43750/43750 images from 98 archives
+2026-10-24 12:59 test: indexed 26000/26000 images from 5 archives
+2026-10-24 12:59 val shard 1/2: 2500 images in 50s
+2026-10-24 13:00 val shard 2/2: 2500 images in 47s
+2026-10-24 13:00 val: cached in 1.6 min
+2026-10-24 13:01 test shard 1/10: 2500 images in 18s
+2026-10-24 13:01 test shard 2/10: 2500 images in 16s
+2026-10-24 13:01 test shard 3/10: 2500 images in 17s
+2026-10-24 13:01 test shard 4/10: 2500 images in 16s
+2026-10-24 13:02 test shard 5/10: 2500 images in 16s
+2026-10-24 13:02 test shard 6/10: 2500 images in 16s
+2026-10-24 13:02 test shard 7/10: 2500 images in 16s
+2026-10-24 13:02 test shard 8/10: 2500 images in 16s
+2026-10-24 13:03 test shard 9/10: 2500 images in 16s
+2026-10-24 13:03 test shard 10/10: 2500 images in 15s
+2026-10-24 13:03 test: cached in 2.7 min
+2026-10-24 13:04 train shard 1/15: 2500 images in 49s
+2026-10-24 13:05 train shard 2/15: 2500 images in 47s
+2026-10-24 13:07 split checksum 3ec8dc9f836b (matches the planned splits)
+2026-10-24 13:08 train: indexed 43750/43750 images from 98 archives
+2026-10-24 13:08 test: indexed 26000/26000 images from 5 archives
+2026-10-24 13:08 val: cached in 0.0 min
+2026-10-24 13:08 test: cached in 0.0 min
+2026-10-24 13:09 train shard 3/15: 2500 images in 21s
+2026-10-24 13:09 train shard 4/15: 2500 images in 44s
+2026-10-24 13:10 train shard 5/15: 2500 images in 45s
+2026-10-24 13:11 train shard 6/15: 2500 images in 43s
+2026-10-24 13:12 train shard 7/15: 2500 images in 44s
+2026-10-24 13:12 train shard 8/15: 2500 images in 44s
+2026-10-24 13:13 train shard 9/15: 2500 images in 44s
+2026-10-24 13:14 train shard 10/15: 2500 images in 43s
+2026-10-24 13:14 train shard 11/15: 2500 images in 42s
+2026-10-24 13:15 train shard 12/15: 2500 images in 42s
+2026-10-24 13:16 train shard 13/15: 2500 images in 41s
+2026-10-24 13:16 train shard 14/15: 2500 images in 41s
+2026-10-24 13:17 train shard 15/15: 2500 images in 40s
+2026-10-24 13:17 train: cached in 8.9 min
+2026-10-24 13:19 H2 eligible countries (>=50 urban and >=50 natural test images): 21 ['AR', 'AU', 'BR', 'CA', 'CL', 'ES', 'FR', 'GB', 'ID', 'IN', 'JP', 'MX', 'NO', 'NZ', 'PE', 'RU', 'SE', 'TH', 'TR', 'TZ', 'US']
+2026-10-24 13:32 split checksum 3ec8dc9f836b (matches the planned splits)
+2026-10-24 13:32 H2 eligible countries (>=50 urban and >=50 natural test images): 21 ['AR', 'AU', 'BR', 'CA', 'CL', 'ES', 'FR', 'GB', 'ID', 'IN', 'JP', 'MX', 'NO', 'NZ', 'PE', 'RU', 'SE', 'TH', 'TR', 'TZ', 'US']
+2026-10-24 13:32 clip_seed0_stage1: training the new head on the frozen backbone
+2026-10-24 13:37   stage 1 epoch 1/2: loss 1.119  val acc 0.7378  (4.2 min)
+2026-10-24 13:40   stage 1 epoch 2/2: loss 0.752  val acc 0.7506  (3.6 min)
+2026-10-24 13:40 clip_search_lr1e-05: fine-tuning all weights, lr 1e-05, 3 epochs
+2026-10-24 13:46   stage 2 epoch 1/3: loss 0.653  val acc 0.8054  (5.9 min)
+2026-10-24 13:52   stage 2 epoch 2/3: loss 0.275  val acc 0.8348  (5.9 min)
+2026-10-24 13:58   stage 2 epoch 3/3: loss 0.104  val acc 0.8494  (5.9 min)
+2026-10-24 13:59 clip_search_lr3e-05: fine-tuning all weights, lr 3e-05, 3 epochs
+2026-10-24 14:05   stage 2 epoch 1/3: loss 0.876  val acc 0.7322  (6.0 min)
+2026-10-24 14:11   stage 2 epoch 2/3: loss 0.361  val acc 0.8040  (5.9 min)
+2026-10-24 14:17   stage 2 epoch 3/3: loss 0.085  val acc 0.8328  (5.9 min)
+2026-10-24 14:17 clip_search_lr0.0001: fine-tuning all weights, lr 0.0001, 3 epochs
+2026-10-24 14:23   stage 2 epoch 1/3: loss 1.448  val acc 0.5876  (6.0 min)
+2026-10-24 14:29   stage 2 epoch 2/3: loss 0.796  val acc 0.7192  (5.9 min)
+2026-10-24 14:35   stage 2 epoch 3/3: loss 0.252  val acc 0.7610  (6.0 min)
+2026-10-24 14:36 clip_search_lr0.0003: fine-tuning all weights, lr 0.0003, 3 epochs
+2026-10-24 14:42   stage 2 epoch 1/3: loss 2.853  val acc 0.2086  (6.2 min)
+2026-10-24 14:48   stage 2 epoch 2/3: loss 2.472  val acc 0.3262  (5.9 min)
+2026-10-24 14:54   stage 2 epoch 3/3: loss 1.967  val acc 0.3986  (6.0 min)
+2026-10-24 14:55 clip_search_lr3e-06: fine-tuning all weights, lr 3e-06, 3 epochs
+2026-10-24 15:01   stage 2 epoch 1/3: loss 0.599  val acc 0.8156  (6.1 min)
+2026-10-24 15:07   stage 2 epoch 2/3: loss 0.346  val acc 0.8296  (6.0 min)
+2026-10-24 15:13   stage 2 epoch 3/3: loss 0.232  val acc 0.8352  (6.0 min)
+2026-10-24 15:13 clip: validation accuracy by learning rate {'1e-05': 0.8494, '3e-05': 0.8328, '0.0001': 0.761, '0.0003': 0.3986, '3e-06': 0.8352} -> chosen 1e-05
+2026-10-24 15:13 vit_seed0_stage1: training the new head on the frozen backbone
+2026-10-24 15:18   stage 1 epoch 1/2: loss 2.381  val acc 0.4232  (4.4 min)
+2026-10-24 15:21   stage 1 epoch 2/2: loss 1.964  val acc 0.4360  (3.6 min)
+2026-10-24 15:22 vit_search_lr1e-05: fine-tuning all weights, lr 1e-05, 3 epochs
+2026-10-24 15:27   stage 2 epoch 1/3: loss 1.553  val acc 0.5636  (5.5 min)
+2026-10-24 15:33   stage 2 epoch 2/3: loss 1.204  val acc 0.6062  (5.5 min)
+2026-10-24 15:39   stage 2 epoch 3/3: loss 1.091  val acc 0.6114  (5.8 min)
+2026-10-24 15:39 vit_search_lr3e-05: fine-tuning all weights, lr 3e-05, 3 epochs
+2026-10-24 15:46   stage 2 epoch 1/3: loss 1.370  val acc 0.6408  (6.1 min)
+2026-10-24 15:51   stage 2 epoch 2/3: loss 0.837  val acc 0.6822  (5.5 min)
+2026-10-24 15:57   stage 2 epoch 3/3: loss 0.640  val acc 0.6914  (5.9 min)
+2026-10-24 15:58 vit_search_lr0.0001: fine-tuning all weights, lr 0.0001, 3 epochs
+2026-10-24 16:04   stage 2 epoch 1/3: loss 1.216  val acc 0.6756  (5.9 min)
+2026-10-24 16:09   stage 2 epoch 2/3: loss 0.513  val acc 0.7408  (5.5 min)
+2026-10-24 16:16   stage 2 epoch 3/3: loss 0.226  val acc 0.7552  (5.9 min)
+2026-10-24 16:16 vit_search_lr0.0003: fine-tuning all weights, lr 0.0003, 3 epochs
+2026-10-24 16:22   stage 2 epoch 1/3: loss 1.278  val acc 0.6314  (6.0 min)
+2026-10-24 16:28   stage 2 epoch 2/3: loss 0.522  val acc 0.7306  (5.5 min)
+2026-10-24 16:34   stage 2 epoch 3/3: loss 0.133  val acc 0.7600  (5.8 min)
+2026-10-24 16:34 vit_search_lr0.001: fine-tuning all weights, lr 0.001, 3 epochs
+2026-10-24 16:40   stage 2 epoch 1/3: loss 1.916  val acc 0.4612  (6.0 min)
+2026-10-24 16:46   stage 2 epoch 2/3: loss 1.239  val acc 0.6302  (5.5 min)
+2026-10-24 16:53   stage 2 epoch 3/3: loss 0.548  val acc 0.6782  (6.0 min)
+2026-10-24 16:53 vit: validation accuracy by learning rate {'1e-05': 0.6114, '3e-05': 0.6914, '0.0001': 0.7552, '0.0003': 0.76, '0.001': 0.6782} -> chosen 0.0003
+2026-10-24 16:53 resnet_seed0_stage1: training the new head on the frozen backbone
+2026-10-24 16:57   stage 1 epoch 1/2: loss 2.543  val acc 0.3922  (4.4 min)
+2026-10-24 17:00   stage 1 epoch 2/2: loss 2.158  val acc 0.4094  (3.3 min)
+2026-10-24 17:00 resnet_search_lr1e-05: fine-tuning all weights, lr 1e-05, 3 epochs
+2026-10-24 17:04   stage 2 epoch 1/3: loss 2.893  val acc 0.2636  (3.8 min)
+2026-10-24 17:08   stage 2 epoch 2/3: loss 2.510  val acc 0.3188  (3.8 min)
+2026-10-24 17:12   stage 2 epoch 3/3: loss 2.409  val acc 0.3268  (4.1 min)
+2026-10-24 17:12 resnet_search_lr3e-05: fine-tuning all weights, lr 3e-05, 3 epochs
+2026-10-24 17:17   stage 2 epoch 1/3: loss 2.590  val acc 0.3856  (4.0 min)
+2026-10-24 17:20   stage 2 epoch 2/3: loss 2.082  val acc 0.4186  (3.7 min)
+2026-10-24 17:24   stage 2 epoch 3/3: loss 1.986  val acc 0.4260  (3.9 min)
+2026-10-24 17:24 resnet_search_lr0.0001: fine-tuning all weights, lr 0.0001, 3 epochs
+2026-10-24 17:28   stage 2 epoch 1/3: loss 2.154  val acc 0.4880  (4.1 min)
+2026-10-24 17:32   stage 2 epoch 2/3: loss 1.539  val acc 0.5302  (3.9 min)
+2026-10-24 17:36   stage 2 epoch 3/3: loss 1.380  val acc 0.5376  (4.0 min)
+2026-10-24 17:37 resnet_search_lr0.0003: fine-tuning all weights, lr 0.0003, 3 epochs
+2026-10-24 17:41   stage 2 epoch 1/3: loss 1.779  val acc 0.5732  (4.1 min)
+2026-10-24 17:45   stage 2 epoch 2/3: loss 1.024  val acc 0.6280  (3.9 min)
+2026-10-24 17:49   stage 2 epoch 3/3: loss 0.789  val acc 0.6374  (4.1 min)
+2026-10-24 17:49 resnet_search_lr0.001: fine-tuning all weights, lr 0.001, 3 epochs
+2026-10-24 17:53   stage 2 epoch 1/3: loss 1.549  val acc 0.5982  (4.1 min)
+2026-10-24 17:57   stage 2 epoch 2/3: loss 0.739  val acc 0.6922  (3.9 min)
+2026-10-24 18:01   stage 2 epoch 3/3: loss 0.370  val acc 0.7148  (4.1 min)
+2026-10-24 18:01 resnet: validation accuracy by learning rate {'1e-05': 0.3268, '3e-05': 0.426, '0.0001': 0.5376, '0.0003': 0.6374, '0.001': 0.7148} -> chosen 0.001
+2026-10-24 18:01 clip_seed0_final: fine-tuning all weights, lr 1e-05, 8 epochs
+2026-10-24 18:07   stage 2 epoch 1/8: loss 0.672  val acc 0.7850  (6.0 min)
+2026-10-24 18:14   stage 2 epoch 2/8: loss 0.372  val acc 0.8078  (6.0 min)
+2026-10-25 18:49 split checksum 3ec8dc9f836b (matches the planned splits)
+2026-10-25 18:50 H2 eligible countries (>=50 urban and >=50 natural test images): 21 ['AR', 'AU', 'BR', 'CA', 'CL', 'ES', 'FR', 'GB', 'ID', 'IN', 'JP', 'MX', 'NO', 'NZ', 'PE', 'RU', 'SE', 'TH', 'TR', 'TZ', 'US']
+2026-10-25 18:51 clip_seed0_final: fine-tuning all weights, lr 1e-05, 8 epochs
+2026-10-25 18:51   resumed at epoch 3/8
+2026-10-25 18:58   stage 2 epoch 3/8: loss 0.203  val acc 0.8096  (6.9 min)
+2026-10-25 19:05   stage 2 epoch 4/8: loss 0.103  val acc 0.8202  (7.1 min)
+2026-10-25 19:13   stage 2 epoch 5/8: loss 0.047  val acc 0.8412  (7.0 min)
+2026-10-25 19:20   stage 2 epoch 6/8: loss 0.019  val acc 0.8516  (7.0 min)
+2026-10-25 19:27   stage 2 epoch 7/8: loss 0.007  val acc 0.8550  (6.9 min)
+2026-10-25 19:34   stage 2 epoch 8/8: loss 0.004  val acc 0.8586  (6.9 min)
+2026-10-25 19:34 clip seed 0: best validation accuracy 0.8586 at epoch 8 (43 min)
+2026-10-25 19:38 clip seed 0: test predictions saved
+2026-10-25 19:38 vit_seed0_final: fine-tuning all weights, lr 0.0003, 8 epochs
+2026-10-25 19:45   stage 2 epoch 1/8: loss 1.331  val acc 0.6248  (6.6 min)
+2026-10-25 19:51   stage 2 epoch 2/8: loss 0.712  val acc 0.6762  (6.6 min)
+2026-10-25 19:58   stage 2 epoch 3/8: loss 0.402  val acc 0.7014  (6.7 min)
+2026-10-25 20:05   stage 2 epoch 4/8: loss 0.197  val acc 0.7084  (6.6 min)
+2026-10-25 20:12   stage 2 epoch 5/8: loss 0.085  val acc 0.7344  (6.6 min)
+2026-10-25 20:19   stage 2 epoch 6/8: loss 0.029  val acc 0.7428  (6.5 min)
+2026-10-26 06:26 split checksum 3ec8dc9f836b (matches the planned splits)
+2026-10-26 06:26 H2 eligible countries (>=50 urban and >=50 natural test images): 21 ['AR', 'AU', 'BR', 'CA', 'CL', 'ES', 'FR', 'GB', 'ID', 'IN', 'JP', 'MX', 'NO', 'NZ', 'PE', 'RU', 'SE', 'TH', 'TR', 'TZ', 'US']
+2026-10-26 06:27 clip seed 0: best validation accuracy 0.8586 at epoch 8 (43 min)
+2026-10-26 06:27 vit_seed0_final: fine-tuning all weights, lr 0.0003, 8 epochs
+2026-10-26 06:28   resumed at epoch 6/8
+2026-10-26 06:34   stage 2 epoch 6/8: loss 0.030  val acc 0.7454  (6.2 min)
+2026-10-26 06:41   stage 2 epoch 7/8: loss 0.008  val acc 0.7516  (6.6 min)
+2026-10-26 06:47   stage 2 epoch 8/8: loss 0.004  val acc 0.7550  (6.3 min)
+2026-10-26 06:47 vit seed 0: best validation accuracy 0.7550 at epoch 8 (20 min)
+2026-10-26 06:51 vit seed 0: test predictions saved
+2026-10-26 06:51 resnet_seed0_final: fine-tuning all weights, lr 0.001, 8 epochs
+2026-10-26 06:55   stage 2 epoch 1/8: loss 1.678  val acc 0.5750  (3.9 min)
+2026-10-26 06:59   stage 2 epoch 2/8: loss 0.873  val acc 0.6636  (3.7 min)
+2026-10-26 07:03   stage 2 epoch 3/8: loss 0.550  val acc 0.6472  (3.8 min)
+2026-10-26 07:07   stage 2 epoch 4/8: loss 0.331  val acc 0.6950  (3.8 min)
+2026-10-26 07:10   stage 2 epoch 5/8: loss 0.167  val acc 0.6998  (3.8 min)
+2026-10-26 07:14   stage 2 epoch 6/8: loss 0.072  val acc 0.7220  (3.8 min)
+2026-10-26 07:18   stage 2 epoch 7/8: loss 0.037  val acc 0.7260  (3.8 min)
+2026-10-26 07:22   stage 2 epoch 8/8: loss 0.026  val acc 0.7260  (3.8 min)
+2026-10-26 07:22 resnet seed 0: best validation accuracy 0.7260 at epoch 7 (31 min)
+2026-10-26 07:25 resnet seed 0: test predictions saved
+2026-10-26 07:32 split checksum 3ec8dc9f836b (matches the planned splits)
+2026-10-26 07:32 H2 eligible countries (>=50 urban and >=50 natural test images): 21 ['AR', 'AU', 'BR', 'CA', 'CL', 'ES', 'FR', 'GB', 'ID', 'IN', 'JP', 'MX', 'NO', 'NZ', 'PE', 'RU', 'SE', 'TH', 'TR', 'TZ', 'US']
+2026-10-26 07:32 clip seed 0: best validation accuracy 0.8586 at epoch 8 (43 min)
+2026-10-26 07:32 vit seed 0: best validation accuracy 0.7550 at epoch 8 (20 min)
+2026-10-26 07:32 resnet seed 0: best validation accuracy 0.7260 at epoch 7 (31 min)
+2026-10-26 07:32 clip_seed1_stage1: training the new head on the frozen backbone
+2026-10-26 07:37   stage 1 epoch 1/2: loss 1.117  val acc 0.7352  (4.2 min)
+2026-10-26 07:40   stage 1 epoch 2/2: loss 0.755  val acc 0.7460  (3.7 min)
+2026-10-26 07:40 clip_seed1_final: fine-tuning all weights, lr 1e-05, 8 epochs
+2026-10-26 07:47   stage 2 epoch 1/8: loss 0.674  val acc 0.7950  (6.9 min)
+2026-10-26 07:54   stage 2 epoch 2/8: loss 0.375  val acc 0.8064  (6.9 min)
+2026-10-26 08:01   stage 2 epoch 3/8: loss 0.204  val acc 0.8166  (6.9 min)
+2026-10-26 08:08   stage 2 epoch 4/8: loss 0.102  val acc 0.8276  (6.9 min)
+2026-10-26 08:15   stage 2 epoch 5/8: loss 0.048  val acc 0.8446  (6.8 min)
+2026-10-26 08:22   stage 2 epoch 6/8: loss 0.019  val acc 0.8504  (6.9 min)
+2026-10-26 08:29   stage 2 epoch 7/8: loss 0.007  val acc 0.8556  (6.7 min)
+2026-10-26 08:36   stage 2 epoch 8/8: loss 0.004  val acc 0.8588  (6.8 min)
+2026-10-26 08:36 clip seed 1: best validation accuracy 0.8588 at epoch 8 (56 min)
+2026-10-26 08:41 clip seed 1: test predictions saved
+2026-10-26 08:41 vit_seed1_stage1: training the new head on the frozen backbone
+2026-10-26 08:45   stage 1 epoch 1/2: loss 2.381  val acc 0.4168  (3.8 min)
+2026-10-26 08:48   stage 1 epoch 2/2: loss 1.969  val acc 0.4344  (3.7 min)
+2026-10-26 08:49 vit_seed1_final: fine-tuning all weights, lr 0.0003, 8 epochs
+2026-10-26 08:55   stage 2 epoch 1/8: loss 1.327  val acc 0.6364  (6.5 min)
+2026-10-26 09:02   stage 2 epoch 2/8: loss 0.725  val acc 0.6802  (6.4 min)
+2026-10-26 09:09   stage 2 epoch 3/8: loss 0.403  val acc 0.7060  (6.8 min)
+2026-10-26 09:15   stage 2 epoch 4/8: loss 0.199  val acc 0.7196  (6.4 min)
+2026-10-26 09:22   stage 2 epoch 5/8: loss 0.087  val acc 0.7334  (6.4 min)
+2026-10-26 09:28   stage 2 epoch 6/8: loss 0.030  val acc 0.7344  (6.4 min)
+2026-10-26 09:35   stage 2 epoch 7/8: loss 0.008  val acc 0.7468  (6.3 min)
+2026-10-26 09:42   stage 2 epoch 8/8: loss 0.004  val acc 0.7500  (6.3 min)
+2026-10-26 09:42 vit seed 1: best validation accuracy 0.7500 at epoch 8 (53 min)
+2026-10-26 09:46 vit seed 1: test predictions saved
+2026-10-26 09:46 resnet_seed1_stage1: training the new head on the frozen backbone
+2026-10-26 09:50   stage 1 epoch 1/2: loss 2.543  val acc 0.3962  (3.4 min)
+2026-10-26 09:53   stage 1 epoch 2/2: loss 2.161  val acc 0.4112  (3.2 min)
+2026-10-26 09:53 resnet_seed1_final: fine-tuning all weights, lr 0.001, 8 epochs
+2026-10-26 09:57   stage 2 epoch 1/8: loss 1.670  val acc 0.5712  (3.7 min)
+2026-10-26 10:00   stage 2 epoch 2/8: loss 0.865  val acc 0.6392  (3.8 min)
+2026-10-26 10:04   stage 2 epoch 3/8: loss 0.549  val acc 0.6760  (3.9 min)
+2026-10-26 10:08   stage 2 epoch 4/8: loss 0.322  val acc 0.6878  (3.9 min)
+2026-10-26 10:12   stage 2 epoch 5/8: loss 0.166  val acc 0.6946  (3.9 min)
+2026-10-26 10:16   stage 2 epoch 6/8: loss 0.073  val acc 0.7138  (3.9 min)
+2026-10-26 10:20   stage 2 epoch 7/8: loss 0.037  val acc 0.7196  (3.8 min)
+2026-10-26 10:24   stage 2 epoch 8/8: loss 0.025  val acc 0.7224  (3.9 min)
+2026-10-26 10:24 resnet seed 1: best validation accuracy 0.7224 at epoch 8 (31 min)
+2026-10-26 10:27 resnet seed 1: test predictions saved
+2026-10-26 10:27 clip_seed2_stage1: training the new head on the frozen backbone
+2026-10-26 10:31   stage 1 epoch 1/2: loss 1.125  val acc 0.7336  (3.6 min)
+2026-10-26 10:35   stage 1 epoch 2/2: loss 0.750  val acc 0.7450  (3.6 min)
+2026-10-26 10:35 clip_seed2_final: fine-tuning all weights, lr 1e-05, 8 epochs
+2026-10-26 10:42   stage 2 epoch 1/8: loss 0.674  val acc 0.7660  (6.9 min)
+2026-10-26 10:49   stage 2 epoch 2/8: loss 0.376  val acc 0.8034  (6.9 min)
+2026-10-26 10:56   stage 2 epoch 3/8: loss 0.198  val acc 0.8114  (6.9 min)
+2026-10-26 11:03   stage 2 epoch 4/8: loss 0.101  val acc 0.8258  (7.0 min)
+2026-10-26 11:11   stage 2 epoch 5/8: loss 0.046  val acc 0.8386  (7.1 min)
+2026-10-26 11:18   stage 2 epoch 6/8: loss 0.018  val acc 0.8530  (7.0 min)
+2026-10-26 11:25   stage 2 epoch 7/8: loss 0.006  val acc 0.8574  (6.9 min)
+2026-10-26 11:32   stage 2 epoch 8/8: loss 0.004  val acc 0.8594  (6.7 min)
+2026-10-26 11:32 clip seed 2: best validation accuracy 0.8594 at epoch 8 (57 min)
+2026-10-26 11:36 clip seed 2: test predictions saved
+2026-10-26 11:36 vit_seed2_stage1: training the new head on the frozen backbone
+2026-10-26 11:40   stage 1 epoch 1/2: loss 2.384  val acc 0.4232  (3.6 min)
+2026-10-26 11:44   stage 1 epoch 2/2: loss 1.969  val acc 0.4372  (3.8 min)
+2026-10-26 11:44 vit_seed2_final: fine-tuning all weights, lr 0.0003, 8 epochs
+2026-10-26 11:51   stage 2 epoch 1/8: loss 1.326  val acc 0.6462  (6.5 min)
+2026-10-26 11:57   stage 2 epoch 2/8: loss 0.718  val acc 0.6632  (6.4 min)
+2026-10-26 12:04   stage 2 epoch 3/8: loss 0.388  val acc 0.6922  (6.4 min)
+2026-10-26 12:11   stage 2 epoch 4/8: loss 0.201  val acc 0.6896  (6.5 min)
+2026-10-26 12:17   stage 2 epoch 5/8: loss 0.085  val acc 0.7092  (6.5 min)
+2026-10-26 12:24   stage 2 epoch 6/8: loss 0.029  val acc 0.7348  (6.4 min)
+2026-10-26 12:30   stage 2 epoch 7/8: loss 0.009  val acc 0.7446  (6.3 min)
+2026-10-26 12:37   stage 2 epoch 8/8: loss 0.005  val acc 0.7460  (6.4 min)
+2026-10-26 12:37 vit seed 2: best validation accuracy 0.7460 at epoch 8 (53 min)
+2026-10-26 12:42 vit seed 2: test predictions saved
+2026-10-26 12:42 resnet_seed2_stage1: training the new head on the frozen backbone
+2026-10-26 12:45   stage 1 epoch 1/2: loss 2.546  val acc 0.3914  (3.3 min)
+2026-10-26 12:48   stage 1 epoch 2/2: loss 2.158  val acc 0.4130  (3.3 min)
+2026-10-26 12:48 resnet_seed2_final: fine-tuning all weights, lr 0.001, 8 epochs
+2026-10-26 12:52   stage 2 epoch 1/8: loss 1.683  val acc 0.5760  (3.9 min)
+2026-10-26 12:56   stage 2 epoch 2/8: loss 0.872  val acc 0.6222  (3.8 min)
+2026-10-26 13:00   stage 2 epoch 3/8: loss 0.549  val acc 0.6472  (4.0 min)
+2026-10-26 13:04   stage 2 epoch 4/8: loss 0.324  val acc 0.6790  (4.1 min)
+2026-10-26 13:08   stage 2 epoch 5/8: loss 0.163  val acc 0.7078  (3.9 min)
+2026-10-26 13:12   stage 2 epoch 6/8: loss 0.070  val acc 0.7188  (3.8 min)
+2026-10-26 13:16   stage 2 epoch 7/8: loss 0.035  val acc 0.7306  (3.9 min)
+2026-10-26 13:20   stage 2 epoch 8/8: loss 0.026  val acc 0.7306  (3.9 min)
+2026-10-26 13:20 resnet seed 2: best validation accuracy 0.7306 at epoch 7 (32 min)
+2026-10-26 13:23 resnet seed 2: test predictions saved
+2026-10-26 13:28 split checksum 3ec8dc9f836b (matches the planned splits)
+2026-10-26 13:28 H2 eligible countries (>=50 urban and >=50 natural test images): 21 ['AR', 'AU', 'BR', 'CA', 'CL', 'ES', 'FR', 'GB', 'ID', 'IN', 'JP', 'MX', 'NO', 'NZ', 'PE', 'RU', 'SE', 'TH', 'TR', 'TZ', 'US']
+2026-10-26 13:28 clip seed 0: best validation accuracy 0.8586 at epoch 8 (43 min)
+2026-10-26 13:28 vit seed 0: best validation accuracy 0.7550 at epoch 8 (20 min)
+2026-10-26 13:28 resnet seed 0: best validation accuracy 0.7260 at epoch 7 (31 min)
+2026-10-26 13:28 clip seed 1: best validation accuracy 0.8588 at epoch 8 (56 min)
+2026-10-26 13:28 vit seed 1: best validation accuracy 0.7500 at epoch 8 (53 min)
+2026-10-26 13:28 resnet seed 1: best validation accuracy 0.7224 at epoch 8 (31 min)
+2026-10-26 13:28 clip seed 2: best validation accuracy 0.8594 at epoch 8 (57 min)
+2026-10-26 13:28 vit seed 2: best validation accuracy 0.7460 at epoch 8 (53 min)
+2026-10-26 13:28 resnet seed 2: best validation accuracy 0.7306 at epoch 7 (32 min)
+2026-10-26 13:38 split checksum 3ec8dc9f836b (matches the planned splits)
+2026-10-26 13:38 H2 eligible countries (>=50 urban and >=50 natural test images): 21 ['AR', 'AU', 'BR', 'CA', 'CL', 'ES', 'FR', 'GB', 'ID', 'IN', 'JP', 'MX', 'NO', 'NZ', 'PE', 'RU', 'SE', 'TH', 'TR', 'TZ', 'US']
+2026-10-26 13:38 clip seed 0: best validation accuracy 0.8586 at epoch 8 (43 min)
+2026-10-26 13:38 vit seed 0: best validation accuracy 0.7550 at epoch 8 (20 min)
+2026-10-26 13:38 resnet seed 0: best validation accuracy 0.7260 at epoch 7 (31 min)
+2026-10-26 13:38 clip seed 1: best validation accuracy 0.8588 at epoch 8 (56 min)
+2026-10-26 13:38 vit seed 1: best validation accuracy 0.7500 at epoch 8 (53 min)
+2026-10-26 13:38 resnet seed 1: best validation accuracy 0.7224 at epoch 8 (31 min)
+2026-10-26 13:38 clip seed 2: best validation accuracy 0.8594 at epoch 8 (57 min)
+2026-10-26 13:38 vit seed 2: best validation accuracy 0.7460 at epoch 8 (53 min)
+2026-10-26 13:38 resnet seed 2: best validation accuracy 0.7306 at epoch 7 (32 min)
