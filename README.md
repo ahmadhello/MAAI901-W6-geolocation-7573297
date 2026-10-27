@@ -28,14 +28,14 @@ Test accuracy (%), mean of three seeds:
 | ViT-B/16 (ImageNet-21k) | 64.3 | 58.9 | 60.8 | 37.5 |
 | ResNet-50 | 62.1 | 55.7 | 58.6 | 35.9 |
 
-Urban and natural are averaged over the 21 countries with enough photos of both. The results for every country are in `results/results.json`.
+Urban and natural are averaged over the 21 countries with enough photos of both.
 
-CLIP accuracy by country (%): New Zealand 95, Botswana 95, Zambia 94, Finland 88, Australia 88, Thailand 86, United Kingdom 85, Japan 84, Norway 81, Canada 81, Türkiye 78, Spain 77, India 77, Sweden 75, France 74, Brazil 73, Mexico 72, Russia 68, South Africa 68, United States 67, Tanzania 64, Peru 63, Argentina 55, Chile 52, Indonesia 50.
+CLIP accuracy by country (%): New Zealand 95, Botswana 95, Zambia 94, Finland 88, Australia 88, Thailand 86, United Kingdom 85, Japan 84, Norway 81, Canada 81, Türkiye 78, Spain 77, India 77, Sweden 75, France 74, Brazil 73, Mexico 72, Russia 68, South Africa 68, United States 67, Tanzania 64, Peru 63, Argentina 55, Chile 52, Indonesia 50. The other two models' results by country are in `results/results.json`.
 
 ## Model card
 
 - Use: research on how pre-training affects recognising countries from street-view photos. It should not be used on private photos, to find where people are, or to act on a prediction without a person checking it. The fine-tuned weights are not shared.
-- Limits: about 85% of test photos come from contributors who are also in the training sample, so the accuracies are optimistic (see the unseen contributors column). The urban labels are noisy, and Botswana, Finland, South Africa and Zambia have no urban or natural results. ResNet-50 may be under-tuned, as its best learning rate was the highest one I tried.
+- Limits: about 85% of test photos come from contributors who are also in the training sample, so the accuracies are optimistic (see the unseen contributors column). The urban labels are noisy, and Botswana, Finland, South Africa and Zambia are left out of the urban and natural averages, as they have too few photos of one type. ResNet-50 may be under-tuned, as its best learning rate was the highest one I tried.
 - Fairness: accuracy is uneven between countries, and many mistakes go to a neighbouring country, so a wrong answer can look believable.
 
 ## Datasheet
